@@ -1,4 +1,7 @@
 # remove the following ignores for your project
+.github
+*/.github
+
 /config/pimcore/constants.php
 */config/pimcore/constants.php
 
