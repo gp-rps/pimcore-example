@@ -13,7 +13,7 @@
     "platformsh/config-reader": "^2.4"
   },
   "require-dev": {
-    "codeception/codeception": "^4.1.12",
+    "codeception/codeception": "^4.1.12"
   },
   "suggest": {
     "pimcore/data-hub": "Universal data interface for GraphQL, CSV and other formats"
