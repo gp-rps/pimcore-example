@@ -9,9 +9,6 @@ name: app
 # The runtime the application uses.
 type: php:8.0
 
-source:
-  root: pimcore
-
 dependencies:
   php:
     composer/composer: "^2.3"
