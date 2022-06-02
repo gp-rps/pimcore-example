@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <container xmlns="http://symfony.com/schema/dic/services" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://symfony.com/schema/dic/services https://symfony.com/schema/dic/services/services-1.0.xsd">
   <parameters>
-    <parameter key="kernel.project_dir">/Users/gokepelemo/demos/pimcore-demo</parameter>
+    <parameter key="kernel.project_dir">/Users/gokepelemo/demos/pimcore/pimcore</parameter>
     <parameter key="kernel.environment">dev</parameter>
     <parameter key="kernel.runtime_environment">%env(default:kernel.environment:APP_RUNTIME_ENV)%</parameter>
     <parameter key="kernel.debug">true</parameter>
-    <parameter key="kernel.build_dir">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev</parameter>
-    <parameter key="kernel.cache_dir">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev</parameter>
-    <parameter key="kernel.logs_dir">/Users/gokepelemo/demos/pimcore-demo/var/log</parameter>
+    <parameter key="kernel.build_dir">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev</parameter>
+    <parameter key="kernel.cache_dir">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev</parameter>
+    <parameter key="kernel.logs_dir">/Users/gokepelemo/demos/pimcore/pimcore/var/log</parameter>
     <parameter key="kernel.bundles" type="collection">
       <parameter key="FrameworkBundle">Symfony\Bundle\FrameworkBundle\FrameworkBundle</parameter>
       <parameter key="SecurityBundle">Symfony\Bundle\SecurityBundle\SecurityBundle</parameter>
@@ -28,67 +28,67 @@
     </parameter>
     <parameter key="kernel.bundles_metadata" type="collection">
       <parameter key="FrameworkBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/framework-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/framework-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\FrameworkBundle</parameter>
       </parameter>
       <parameter key="SecurityBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\SecurityBundle</parameter>
       </parameter>
       <parameter key="TwigBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\TwigBundle</parameter>
       </parameter>
       <parameter key="MonologBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/monolog-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/monolog-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\MonologBundle</parameter>
       </parameter>
       <parameter key="DoctrineBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\DoctrineBundle</parameter>
       </parameter>
       <parameter key="DoctrineMigrationsBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-migrations-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-migrations-bundle</parameter>
         <parameter key="namespace">Doctrine\Bundle\MigrationsBundle</parameter>
       </parameter>
       <parameter key="SensioFrameworkExtraBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/sensio/framework-extra-bundle/src</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/sensio/framework-extra-bundle/src</parameter>
         <parameter key="namespace">Sensio\Bundle\FrameworkExtraBundle</parameter>
       </parameter>
       <parameter key="CmfRoutingBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/symfony-cmf/routing-bundle/src</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony-cmf/routing-bundle/src</parameter>
         <parameter key="namespace">Symfony\Cmf\Bundle\RoutingBundle</parameter>
       </parameter>
       <parameter key="PrestaSitemapBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/presta/sitemap-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/presta/sitemap-bundle</parameter>
         <parameter key="namespace">Presta\SitemapBundle</parameter>
       </parameter>
       <parameter key="SchebTwoFactorBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle</parameter>
         <parameter key="namespace">Scheb\TwoFactorBundle</parameter>
       </parameter>
       <parameter key="FOSJsRoutingBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/friendsofsymfony/jsrouting-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/friendsofsymfony/jsrouting-bundle</parameter>
         <parameter key="namespace">FOS\JsRoutingBundle</parameter>
       </parameter>
       <parameter key="FlysystemBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/league/flysystem-bundle/src</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/league/flysystem-bundle/src</parameter>
         <parameter key="namespace">League\FlysystemBundle</parameter>
       </parameter>
       <parameter key="DebugBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/debug-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/debug-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\DebugBundle</parameter>
       </parameter>
       <parameter key="WebProfilerBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/web-profiler-bundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/web-profiler-bundle</parameter>
         <parameter key="namespace">Symfony\Bundle\WebProfilerBundle</parameter>
       </parameter>
       <parameter key="PimcoreCoreBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle</parameter>
         <parameter key="namespace">Pimcore\Bundle\CoreBundle</parameter>
       </parameter>
       <parameter key="PimcoreAdminBundle" type="collection">
-        <parameter key="path">/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/AdminBundle</parameter>
+        <parameter key="path">/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/AdminBundle</parameter>
         <parameter key="namespace">Pimcore\Bundle\AdminBundle</parameter>
       </parameter>
     </parameter>
@@ -138,17 +138,17 @@
     <parameter key="asset.request_context.base_path">null</parameter>
     <parameter key="asset.request_context.secure">null</parameter>
     <parameter key="translator.logging">false</parameter>
-    <parameter key="translator.default_path">/Users/gokepelemo/demos/pimcore-demo/translations</parameter>
+    <parameter key="translator.default_path">/Users/gokepelemo/demos/pimcore/pimcore/translations</parameter>
     <parameter key="debug.error_handler.throw_at">-1</parameter>
-    <parameter key="debug.container.dump">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/App_KernelDevDebugContainer.xml</parameter>
+    <parameter key="debug.container.dump">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/App_KernelDevDebugContainer.xml</parameter>
     <parameter key="router.request_context.host">localhost</parameter>
     <parameter key="router.request_context.scheme">http</parameter>
     <parameter key="router.request_context.base_url"></parameter>
     <parameter key="router.resource">kernel::loadRoutes</parameter>
     <parameter key="request_listener.http_port">80</parameter>
     <parameter key="request_listener.https_port">443</parameter>
-    <parameter key="serializer.mapping.cache.file">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/serialization.php</parameter>
-    <parameter key="cache.prefix.seed">_/Users/gokepelemo/demos/pimcore-demo.App_KernelDevDebugContainer</parameter>
+    <parameter key="serializer.mapping.cache.file">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/serialization.php</parameter>
+    <parameter key="cache.prefix.seed">_/Users/gokepelemo/demos/pimcore/pimcore.App_KernelDevDebugContainer</parameter>
     <parameter key="session.metadata.storage_key">_sf2_meta</parameter>
     <parameter key="session.storage.options" type="collection">
       <parameter key="cache_limiter" type="string">0</parameter>
@@ -156,15 +156,15 @@
       <parameter key="cookie_samesite">strict</parameter>
       <parameter key="gc_probability">1</parameter>
     </parameter>
-    <parameter key="session.save_path">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/sessions</parameter>
+    <parameter key="session.save_path">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/sessions</parameter>
     <parameter key="session.metadata.update_threshold">0</parameter>
     <parameter key="form.type_extension.csrf.enabled">true</parameter>
     <parameter key="form.type_extension.csrf.field_name">_token</parameter>
-    <parameter key="validator.mapping.cache.file">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/validation.php</parameter>
+    <parameter key="validator.mapping.cache.file">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/validation.php</parameter>
     <parameter key="validator.translation_domain">validators</parameter>
     <parameter key="profiler_listener.only_exceptions">false</parameter>
     <parameter key="profiler_listener.only_main_requests">false</parameter>
-    <parameter key="profiler.storage.dsn">file:/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/profiler</parameter>
+    <parameter key="profiler.storage.dsn">file:/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/profiler</parameter>
     <parameter key="security.role_hierarchy.roles" type="collection">
       <parameter key="ROLE_PIMCORE_ADMIN" type="collection">
         <parameter>ROLE_PIMCORE_USER</parameter>
@@ -185,7 +185,7 @@
     <parameter key="twig.form.resources" type="collection">
       <parameter>form_div_layout.html.twig</parameter>
     </parameter>
-    <parameter key="twig.default_path">/Users/gokepelemo/demos/pimcore-demo/templates</parameter>
+    <parameter key="twig.default_path">/Users/gokepelemo/demos/pimcore/pimcore/templates</parameter>
     <parameter key="monolog.use_microseconds">true</parameter>
     <parameter key="monolog.swift_mailer.handlers" type="collection"/>
     <parameter key="monolog.handlers_to_channels" type="collection">
@@ -248,7 +248,7 @@
     <parameter key="presta_sitemap.dumper.class">Presta\SitemapBundle\Service\Dumper</parameter>
     <parameter key="presta_sitemap.routing_loader.class">Presta\SitemapBundle\Routing\SitemapRoutingLoader</parameter>
     <parameter key="presta_sitemap.dump_command.class">Presta\SitemapBundle\Command\DumpSitemapsCommand</parameter>
-    <parameter key="presta_sitemap.dump_directory">/Users/gokepelemo/demos/pimcore-demo/public</parameter>
+    <parameter key="presta_sitemap.dump_directory">/Users/gokepelemo/demos/pimcore/pimcore/public</parameter>
     <parameter key="presta_sitemap.timetolive">3600</parameter>
     <parameter key="presta_sitemap.sitemap_file_prefix">sitemap</parameter>
     <parameter key="presta_sitemap.items_by_set">50000</parameter>
@@ -1229,7 +1229,7 @@
       </argument>
     </service>
     <service id="http_cache.store" class="Symfony\Component\HttpKernel\HttpCache\Store">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/http_cache</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/http_cache</argument>
     </service>
     <service id="url_helper" class="Symfony\Component\HttpFoundation\UrlHelper">
       <argument type="service" id="request_stack"/>
@@ -1239,7 +1239,7 @@
       <tag name="container.no_preload"/>
       <argument type="tagged_iterator" tag="kernel.cache_warmer"/>
       <argument>true</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/App_KernelDevDebugContainerDeprecations.log</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/App_KernelDevDebugContainerDeprecations.log</argument>
     </service>
     <service id="cache_clearer" class="Symfony\Component\HttpKernel\CacheClearer\ChainCacheClearer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -1473,7 +1473,7 @@
       </argument>
       <argument>UTF-8</argument>
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <argument type="service">
         <service>
           <argument type="service" id="request_stack"/>
@@ -1506,7 +1506,7 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument type="service" id="filesystem"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <call method="setName">
         <argument>assets:install</argument>
       </call>
@@ -1675,7 +1675,7 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument>dev</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <call method="setName">
         <argument>debug:dotenv</argument>
       </call>
@@ -1891,17 +1891,17 @@
       <argument type="service" id="Pimcore\Translation\Translator"/>
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/translations</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/translations</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
       <argument type="collection">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations</argument>
       </argument>
       <argument type="collection">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Email</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Form</argument>
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -1918,17 +1918,17 @@
       <argument type="service" id="translation.reader"/>
       <argument type="service" id="translation.extractor"/>
       <argument>en</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/translations</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/translations</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
       <argument type="collection">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations</argument>
       </argument>
       <argument type="collection">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Email</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Form</argument>
       </argument>
       <argument type="collection"/>
       <call method="setName">
@@ -2156,7 +2156,7 @@
       <argument></argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -2186,7 +2186,7 @@
       <tag name="monolog.logger" channel="cache"/>
       <argument></argument>
       <argument>0</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/app</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/app</argument>
       <argument type="service" id="cache.default_marshaller" on-invalid="ignore"/>
       <call method="setLogger">
         <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
@@ -2473,331 +2473,331 @@
         </argument>
       </argument>
       <argument type="collection">
-        <argument key="cache_dir">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/translations</argument>
+        <argument key="cache_dir">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/translations</argument>
         <argument key="debug">true</argument>
         <argument key="resource_files" type="collection">
           <argument key="af" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.af.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.af.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.af.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.af.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.af.xlf</argument>
           </argument>
           <argument key="ar" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.ar.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.ar.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.ar.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.ar.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.ar.xlf</argument>
           </argument>
           <argument key="az" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.az.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.az.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.az.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.az.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.az.xlf</argument>
           </argument>
           <argument key="be" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.be.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.be.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.be.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.be.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.be.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.be.xlf</argument>
           </argument>
           <argument key="bg" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.bg.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.bg.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.bg.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.bg.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.bg.xlf</argument>
           </argument>
           <argument key="bs" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.bs.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.bs.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.bs.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.bs.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.bs.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.bs.xlf</argument>
           </argument>
           <argument key="ca" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.ca.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.ca.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.ca.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.ca.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.ca.xlf</argument>
           </argument>
           <argument key="cs" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.cs.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.cs.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.cs.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.cs.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.cs.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.cs.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.cs.yml</argument>
           </argument>
           <argument key="cy" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.cy.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.cy.xlf</argument>
           </argument>
           <argument key="da" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.da.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.da.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.da.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.da.xlf</argument>
           </argument>
           <argument key="de" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.de.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.de.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.de.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.de.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.de.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.de.yml</argument>
           </argument>
           <argument key="el" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.el.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.el.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.el.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.el.xlf</argument>
           </argument>
           <argument key="en" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.en.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.en.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.en.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.en.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.en.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.en.yml</argument>
           </argument>
           <argument key="es" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.es.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.es.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.es.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.es.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.es.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.es.yml</argument>
           </argument>
           <argument key="et" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.et.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.et.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.et.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.et.xlf</argument>
           </argument>
           <argument key="eu" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.eu.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.eu.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.eu.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.eu.xlf</argument>
           </argument>
           <argument key="fa" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.fa.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.fa.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.fa.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.fa.xlf</argument>
           </argument>
           <argument key="fi" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.fi.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.fi.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.fi.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.fi.xlf</argument>
           </argument>
           <argument key="fr" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.fr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.fr.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.fr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.fr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.fr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.fr.yml</argument>
           </argument>
           <argument key="gl" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.gl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.gl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.gl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.gl.xlf</argument>
           </argument>
           <argument key="he" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.he.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.he.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.he.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.he.xlf</argument>
           </argument>
           <argument key="hr" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.hr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.hr.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.hr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.hr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.hr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.hr.yml</argument>
           </argument>
           <argument key="hu" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.hu.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.hu.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.hu.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.hu.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.hu.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.hu.yml</argument>
           </argument>
           <argument key="hy" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.hy.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.hy.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.hy.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.hy.xlf</argument>
           </argument>
           <argument key="id" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.id.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.id.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.id.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.id.xlf</argument>
           </argument>
           <argument key="it" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.it.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.it.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.it.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.it.xlf</argument>
           </argument>
           <argument key="ja" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.ja.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.ja.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.ja.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.ja.xlf</argument>
           </argument>
           <argument key="lb" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.lb.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.lb.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.lb.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.lb.xlf</argument>
           </argument>
           <argument key="lt" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.lt.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.lt.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.lt.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.lt.xlf</argument>
           </argument>
           <argument key="lv" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.lv.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.lv.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.lv.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.lv.xlf</argument>
           </argument>
           <argument key="mn" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.mn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.mn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.mn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.mn.xlf</argument>
           </argument>
           <argument key="my" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.my.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.my.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.my.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.my.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.my.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.my.xlf</argument>
           </argument>
           <argument key="nb" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.nb.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.nb.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.nb.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.nb.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.nb.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.nb.xlf</argument>
           </argument>
           <argument key="nl" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.nl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.nl.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.nl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.nl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.nl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.nl.yml</argument>
           </argument>
           <argument key="nn" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.nn.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.nn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.nn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.nn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.nn.xlf</argument>
           </argument>
           <argument key="no" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.no.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.no.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.no.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.no.xlf</argument>
           </argument>
           <argument key="pl" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.pl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.pl.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.pl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.pl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.pl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.pl.yml</argument>
           </argument>
           <argument key="pt" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.pt.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.pt.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.pt.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.pt.xlf</argument>
           </argument>
           <argument key="pt_BR" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.pt_BR.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.pt_BR.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.pt_BR.xlf</argument>
           </argument>
           <argument key="ro" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.ro.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.ro.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.ro.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.ro.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.ro.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.ro.yml</argument>
           </argument>
           <argument key="ru" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.ru.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.ru.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.ru.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.ru.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.ru.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.ru.yml</argument>
           </argument>
           <argument key="sk" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.sk.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.sk.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.sk.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.sk.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.sk.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.sk.yml</argument>
           </argument>
           <argument key="sl" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.sl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.sl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.sl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.sl.xlf</argument>
           </argument>
           <argument key="sq" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.sq.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.sq.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.sq.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.sq.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.sq.xlf</argument>
           </argument>
           <argument key="sr_Cyrl" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.sr_Cyrl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.sr_Cyrl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.sr_Cyrl.xlf</argument>
           </argument>
           <argument key="sr_Latn" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.sr_Latn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.sr_Latn.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.sr_Latn.xlf</argument>
           </argument>
           <argument key="sv" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.sv.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.sv.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.sv.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.sv.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.sv.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.sv.yml</argument>
           </argument>
           <argument key="th" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.th.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.th.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.th.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.th.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.th.xlf</argument>
           </argument>
           <argument key="tl" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.tl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.tl.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.tl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.tl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.tl.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.tl.xlf</argument>
           </argument>
           <argument key="tr" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.tr.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.tr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.tr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.tr.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.tr.xlf</argument>
           </argument>
           <argument key="uk" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.uk.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.uk.yml</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.uk.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.uk.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.uk.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations/SchebTwoFactorBundle.uk.yml</argument>
           </argument>
           <argument key="uz" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.uz.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.uz.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.uz.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.uz.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.uz.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.uz.xlf</argument>
           </argument>
           <argument key="vi" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.vi.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.vi.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.vi.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.vi.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.vi.xlf</argument>
           </argument>
           <argument key="zh_CN" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.zh_CN.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.zh_CN.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.zh_CN.xlf</argument>
           </argument>
           <argument key="zh_TW" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations/validators.zh_TW.xlf</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations/security.zh_TW.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations/validators.zh_TW.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations/validators.zh_TW.xlf</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations/security.zh_TW.xlf</argument>
           </argument>
           <argument key="extended" type="collection">
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/cs.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/de.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/en.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/es.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/fr.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/hu.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/it.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/nl.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/pl.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/sk.extended.json</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/th.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/cs.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/de.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/en.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/es.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/fr.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/hu.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/it.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/nl.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/pl.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/sk.extended.json</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations/th.extended.json</argument>
           </argument>
         </argument>
         <argument key="scanned_directories" type="collection">
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/validator/Resources/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-core/Resources/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/framework-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/monolog-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-migrations-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/sensio/framework-extra-bundle/src/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony-cmf/routing-bundle/src/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/presta/sitemap-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/friendsofsymfony/jsrouting-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/league/flysystem-bundle/src/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/debug-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/web-profiler-bundle/translations</argument>
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/AdminBundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/validator/Resources/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-core/Resources/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/framework-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/monolog-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-migrations-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/sensio/framework-extra-bundle/src/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony-cmf/routing-bundle/src/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/presta/sitemap-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/friendsofsymfony/jsrouting-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/league/flysystem-bundle/src/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/debug-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/web-profiler-bundle/translations</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/AdminBundle/translations</argument>
         </argument>
         <argument key="cache_vary" type="collection">
           <argument key="scanned_directories" type="collection">
@@ -3053,7 +3053,7 @@
     <service id="debug.file_link_formatter" class="Symfony\Component\HttpKernel\Debug\FileLinkFormatter">
       <argument>null</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <argument type="service_closure" id="debug.file_link_formatter.url_format"/>
     </service>
     <service id="debug.stopwatch" class="Symfony\Component\Stopwatch\Stopwatch">
@@ -4635,7 +4635,7 @@
       <argument type="service" id=".service_locator.491LSII.router.default"/>
       <argument>kernel::loadRoutes</argument>
       <argument type="collection">
-        <argument key="cache_dir">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev</argument>
+        <argument key="cache_dir">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev</argument>
         <argument key="debug">true</argument>
         <argument key="generator_class">Symfony\Component\Routing\Generator\CompiledUrlGenerator</argument>
         <argument key="generator_dumper_class">Symfony\Component\Routing\Generator\Dumper\CompiledUrlGeneratorDumper</argument>
@@ -4685,7 +4685,7 @@
       <argument type="service" id="request_stack"/>
       <argument type="service" id="router.request_context" on-invalid="ignore"/>
       <argument type="service" id="monolog.logger.request" on-invalid="ignore"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <argument>true</argument>
     </service>
     <service id="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" class="Symfony\Bundle\FrameworkBundle\Controller\RedirectController" public="true">
@@ -4753,13 +4753,13 @@
     <service id="annotations.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\AnnotationsCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="annotations.reader"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/annotations.php</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/annotations.php</argument>
       <argument>#^Symfony\\(?:Component\\HttpKernel\\|Bundle\\FrameworkBundle\\Controller\\(?!.*Controller$))#</argument>
       <argument>true</argument>
     </service>
     <service id="annotations.cache_adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
       <tag name="container.hot_path"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/annotations.php</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/annotations.php</argument>
       <argument type="service" id="cache.annotations"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -4777,7 +4777,7 @@
     </service>
     <service id="secrets.vault" class="Symfony\Bundle\FrameworkBundle\Secrets\SodiumVault">
       <tag name="container.env_var_loader"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/config/secrets/%env(default:kernel.environment:APP_RUNTIME_ENV)%</argument>
       <argument type="service" id="secrets.decryption_key" on-invalid="ignore"/>
     </service>
     <service id="secrets.decryption_key" class="Symfony\Component\String\LazyString">
@@ -4786,7 +4786,7 @@
       <factory class="Symfony\Component\String\LazyString" method="fromCallable"/>
     </service>
     <service id="secrets.local_vault" class="Symfony\Bundle\FrameworkBundle\Secrets\DotenvVault">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/.env.dev.local</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/.env.dev.local</argument>
     </service>
     <service id="serializer" class="Symfony\Component\Serializer\Serializer" public="true">
       <tag name="container.private" package="symfony/framework-bundle" version="5.2"/>
@@ -4899,10 +4899,10 @@
           </service>
         </argument>
       </argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/serialization.php</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/serialization.php</argument>
     </service>
     <service id="serializer.mapping.cache.symfony" class="Psr\Cache\CacheItemPoolInterface">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/serialization.php</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/serialization.php</argument>
       <argument type="service" id="cache.serializer"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -5075,7 +5075,7 @@
       <argument>false</argument>
     </service>
     <service id="session.storage.factory.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorageFactory">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/sessions</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\MetadataBag">
@@ -5120,7 +5120,7 @@
       <deprecated package="symfony/framework-bundle" version="5.1">The "%service_id%" service is deprecated, use "$session-&gt;getAttributeBag()" instead.</deprecated>
     </service>
     <service id="session.storage.mock_file" class="Symfony\Component\HttpFoundation\Session\Storage\MockFileSessionStorage">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/sessions</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/sessions</argument>
       <argument>MOCKSESSID</argument>
       <argument type="service" id="session.storage.metadata_bag"/>
       <deprecated package="symfony/framework-bundle" version="5.3">The "%service_id%" service is deprecated, use "session.storage.factory.mock_file" instead.</deprecated>
@@ -5128,7 +5128,7 @@
     <service id="session.handler.native_file" class="Symfony\Component\HttpFoundation\Session\Storage\Handler\StrictSessionHandler">
       <argument type="service">
         <service class="Symfony\Component\HttpFoundation\Session\Storage\Handler\NativeFileSessionHandler">
-          <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/sessions</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/sessions</argument>
         </service>
       </argument>
     </service>
@@ -5286,7 +5286,7 @@
       </call>
       <call method="addXmlMappings">
         <argument type="collection">
-          <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/form/Resources/config/validation.xml</argument>
+          <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/form/Resources/config/validation.xml</argument>
         </argument>
       </call>
       <call method="enableAnnotationMapping">
@@ -5309,10 +5309,10 @@
     <service id="validator.mapping.cache_warmer" class="Symfony\Bundle\FrameworkBundle\CacheWarmer\ValidatorCacheWarmer">
       <tag name="kernel.cache_warmer"/>
       <argument type="service" id="validator.builder"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/validation.php</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/validation.php</argument>
     </service>
     <service id="validator.mapping.cache.adapter" class="Symfony\Component\Cache\Adapter\PhpArrayAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/validation.php</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/validation.php</argument>
       <argument type="service" id="cache.validator"/>
       <factory class="Symfony\Component\Cache\Adapter\PhpArrayAdapter" method="create"/>
     </service>
@@ -5715,7 +5715,7 @@
       </call>
     </service>
     <service id="profiler.storage" class="Symfony\Component\HttpKernel\Profiler\FileProfilerStorage">
-      <argument>file:/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/profiler</argument>
+      <argument>file:/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/profiler</argument>
     </service>
     <service id="profiler_listener" class="Symfony\Component\HttpKernel\EventListener\ProfilerListener">
       <tag name="kernel.event_subscriber"/>
@@ -5762,7 +5762,7 @@
       <tag name="monolog.logger" channel="profiler"/>
       <tag name="data_collector" template="@WebProfiler/Collector/logger.html.twig" id="logger" priority="300"/>
       <argument type="service" id="monolog.logger.profiler" on-invalid="ignore"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/App_KernelDevDebugContainer</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/App_KernelDevDebugContainer</argument>
       <argument type="service" id="request_stack" on-invalid="ignore"/>
     </service>
     <service id="data_collector.time" class="Symfony\Component\HttpKernel\DataCollector\TimeDataCollector">
@@ -6850,7 +6850,7 @@
         <argument key="debug">true</argument>
         <argument key="strict_variables">true</argument>
         <argument key="autoescape">name</argument>
-        <argument key="cache">/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/twig</argument>
+        <argument key="cache">/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/twig</argument>
         <argument key="charset">UTF-8</argument>
       </argument>
       <call method="addExtension">
@@ -7005,11 +7005,11 @@
     <service id="twig.template_iterator" class="Symfony\Bundle\TwigBundle\TemplateIterator">
       <argument type="service" id="kernel"/>
       <argument type="collection">
-        <argument key="/Users/gokepelemo/demos/pimcore-demo/templates">App</argument>
-        <argument key="/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Email">email</argument>
-        <argument key="/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
+        <argument key="/Users/gokepelemo/demos/pimcore/pimcore/templates">App</argument>
+        <argument key="/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Email">email</argument>
+        <argument key="/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Form">null</argument>
       </argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
     </service>
     <service id="twig.template_cache_warmer" class="Symfony\Bundle\TwigBundle\CacheWarmer\TemplateCacheWarmer">
       <tag name="kernel.cache_warmer"/>
@@ -7020,88 +7020,88 @@
     <service id="twig.loader.native_filesystem" class="Twig\Loader\FilesystemLoader">
       <tag name="twig.loader"/>
       <argument type="collection"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
         <argument>App</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-bundle/Resources/views</argument>
         <argument>Security</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/security-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/security-bundle/Resources/views</argument>
         <argument>!Security</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>!Doctrine</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
         <argument>DoctrineMigrations</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/doctrine/doctrine-migrations-bundle/Resources/views</argument>
         <argument>!DoctrineMigrations</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/views</argument>
         <argument>SchebTwoFactor</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/scheb/2fa-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/scheb/2fa-bundle/Resources/views</argument>
         <argument>!SchebTwoFactor</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/debug-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/debug-bundle/Resources/views</argument>
         <argument>Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/debug-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/debug-bundle/Resources/views</argument>
         <argument>!Debug</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/web-profiler-bundle/Resources/views</argument>
         <argument>WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/web-profiler-bundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/web-profiler-bundle/Resources/views</argument>
         <argument>!WebProfiler</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/views</argument>
         <argument>PimcoreCore</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Resources/views</argument>
         <argument>!PimcoreCore</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/AdminBundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/AdminBundle/Resources/views</argument>
         <argument>PimcoreAdmin</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/AdminBundle/Resources/views</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/AdminBundle/Resources/views</argument>
         <argument>!PimcoreAdmin</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Email</argument>
         <argument>email</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Email</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Email</argument>
         <argument>!email</argument>
       </call>
       <call method="addPath">
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/symfony/twig-bridge/Resources/views/Form</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/symfony/twig-bridge/Resources/views/Form</argument>
       </call>
     </service>
     <service id="twig.loader.chain" class="Twig\Loader\ChainLoader"/>
@@ -7127,7 +7127,7 @@
     <service id="twig.extension.code" class="Symfony\Bridge\Twig\Extension\CodeExtension">
       <tag name="twig.extension"/>
       <argument type="service" id="debug.file_link_formatter" on-invalid="ignore"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <argument>UTF-8</argument>
     </service>
     <service id="twig.extension.routing" class="Symfony\Bridge\Twig\Extension\RoutingExtension">
@@ -7213,9 +7213,9 @@
       <tag name="console.command"/>
       <tag name="container.no_preload"/>
       <argument type="service" id="twig"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <argument>%kernel.bundles_metadata%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/templates</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/templates</argument>
       <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
       <call method="setName">
         <argument>debug:twig</argument>
@@ -7286,7 +7286,7 @@
     <service id="monolog.processor.psr_log_message" class="Monolog\Processor\PsrLogMessageProcessor"/>
     <service id="monolog.handler.main" class="Monolog\Handler\StreamHandler">
       <tag name="kernel.reset" method="reset"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/log/dev.log</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/log/dev.log</argument>
       <argument>100</argument>
       <argument>true</argument>
       <argument>null</argument>
@@ -7509,7 +7509,7 @@
     <service id="doctrine.migrations.configuration" class="Doctrine\Migrations\Configuration\Configuration">
       <call method="addMigrationsDirectory">
         <argument>Pimcore\Bundle\CoreBundle\Migrations</argument>
-        <argument>/Users/gokepelemo/demos/pimcore-demo/vendor/pimcore/pimcore/bundles/CoreBundle/Migrations</argument>
+        <argument>/Users/gokepelemo/demos/pimcore/pimcore/vendor/pimcore/pimcore/bundles/CoreBundle/Migrations</argument>
       </call>
       <call method="setAllOrNothing">
         <argument>false</argument>
@@ -7867,7 +7867,7 @@
       <tag name="container.no_preload"/>
       <argument type="service" id="cmf_routing.router"/>
       <argument type="service" id="presta_sitemap.dumper_default"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/public</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/public</argument>
       <call method="setName">
         <argument>presta:sitemaps:dump</argument>
       </call>
@@ -7886,7 +7886,7 @@
       <tag name="messenger.message_handler"/>
       <argument type="service" id="cmf_routing.router"/>
       <argument type="service" id="presta_sitemap.dumper_default"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/public</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/public</argument>
     </service>
     <service id="scheb_two_factor.security.authentication.provider.decorator" class="Scheb\TwoFactorBundle\Security\Authentication\Provider\AuthenticationProviderDecorator" abstract="true">
       <argument></argument>
@@ -8080,7 +8080,7 @@
     <service id="fos_js_routing.extractor" class="FOS\JsRoutingBundle\Extractor\ExposedRoutesExtractor" public="true">
       <argument type="service" id="cmf_routing.router"/>
       <argument type="collection"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev</argument>
       <argument>%kernel.bundles%</argument>
     </service>
     <service id="fos_js_routing.dump_command" class="FOS\JsRoutingBundle\Command\DumpCommand">
@@ -8088,7 +8088,7 @@
       <tag name="container.no_preload"/>
       <argument type="service" id="fos_js_routing.extractor"/>
       <argument type="service" id="fos_js_routing.serializer"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
       <argument>null</argument>
       <call method="setName">
         <argument>fos:js-routing:dump</argument>
@@ -8127,7 +8127,7 @@
       <argument type="service" id=".service_locator.nOUJDuN"/>
     </service>
     <service id="flysystem.adapter.pimcore.document_static.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/public/var/tmp/pages</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/public/var/tmp/pages</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8156,7 +8156,7 @@
       </argument>
     </service>
     <service id="flysystem.adapter.pimcore.asset.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/public/var/assets</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/public/var/assets</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8185,7 +8185,7 @@
       </argument>
     </service>
     <service id="flysystem.adapter.pimcore.asset_cache.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/public/var/tmp/asset-cache</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/public/var/tmp/asset-cache</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8214,7 +8214,7 @@
       </argument>
     </service>
     <service id="flysystem.adapter.pimcore.thumbnail.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/public/var/tmp/thumbnails</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/public/var/tmp/thumbnails</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8243,7 +8243,7 @@
       </argument>
     </service>
     <service id="flysystem.adapter.pimcore.version.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/versions</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/versions</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8272,7 +8272,7 @@
       </argument>
     </service>
     <service id="flysystem.adapter.pimcore.recycle_bin.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/recyclebin</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/recyclebin</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8301,7 +8301,7 @@
       </argument>
     </service>
     <service id="flysystem.adapter.pimcore.admin.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/admin</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/admin</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8330,7 +8330,7 @@
       </argument>
     </service>
     <service id="flysystem.adapter.pimcore.email_log.storage" class="League\Flysystem\Local\LocalFilesystemAdapter">
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/email</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/email</argument>
       <argument type="service">
         <service class="League\Flysystem\UnixVisibility\PortableVisibilityConverter" shared="false">
           <argument type="collection">
@@ -8400,7 +8400,7 @@
         <argument key="source" type="service">
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -8422,7 +8422,7 @@
         <argument key="source" type="service">
           <service class="Symfony\Component\VarDumper\Dumper\ContextProvider\SourceContextProvider">
             <argument>UTF-8</argument>
-            <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+            <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
             <argument type="service" id="debug.file_link_formatter" on-invalid="null"/>
           </service>
         </argument>
@@ -8480,7 +8480,7 @@
       <argument type="service" id="twig"/>
       <argument>%data_collector.templates%</argument>
       <argument type="service" id="web_profiler.csp.handler"/>
-      <argument>/Users/gokepelemo/demos/pimcore-demo</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore</argument>
     </service>
     <service id="web_profiler.controller.router" class="Symfony\Bundle\WebProfilerBundle\Controller\RouterController" public="true">
       <argument type="service" id="profiler" on-invalid="null"/>
@@ -14322,42 +14322,42 @@
       <argument>app</argument>
     </service>
     <service id="cache.system.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>NrwzYbb1Ec</argument>
+      <argument>RJWZJNmlRY</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.validator.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>5GG0nLKpyg</argument>
+      <argument>ZLTqBD8SW4</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.serializer.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>w8urUMDcWY</argument>
+      <argument>lo-bEvOnTy</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.annotations.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>c99IZIU1O1</argument>
+      <argument>SUes2R8ikO</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.property_info.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>ikoC3aHB2S</argument>
+      <argument>MYSFLnHx-+</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
@@ -14370,24 +14370,24 @@
       <argument>app</argument>
     </service>
     <service id="cache.validator_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>TPmsJLN-7E</argument>
+      <argument>FeziWNzMTL</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="cache.security_expression_language.recorder_inner" class="Symfony\Component\Cache\Adapter\AdapterInterface">
-      <argument>VWuvozSNKJ</argument>
+      <argument>zJJb1JTqAk</argument>
       <argument>0</argument>
       <argument>%container.build_id%</argument>
-      <argument>/Users/gokepelemo/demos/pimcore-demo/var/cache/dev/pools/system</argument>
+      <argument>/Users/gokepelemo/demos/pimcore/pimcore/var/cache/dev/pools/system</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
     </service>
     <service id="pimcore.cache.adapter.redis_tag_aware.recorder_inner" class="Symfony\Component\Cache\Adapter\RedisTagAwareAdapter" lazy="true" autowire="true" autoconfigure="true">
       <argument type="service" id=".cache_connection.GD_MSZC"/>
-      <argument>IwUrfumxUk</argument>
+      <argument>hK0bKF4E1J</argument>
       <argument>0</argument>
       <argument type="service" id="cache.default_marshaller"/>
       <call method="setLogger">
